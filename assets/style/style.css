@@ -5,6 +5,7 @@
 }
 
 body {
+    padding: 25px;
     width: 100vw;
     height: 100vh;
     background: black;
@@ -12,11 +13,10 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
+    height: 80%;
 }
 
 div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    height: 100%;
 }
